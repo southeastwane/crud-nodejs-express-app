@@ -1,4 +1,4 @@
-Blueprint for a nodejs and express API with 5 enpoints.
+Blueprint for a nodejs and express API with 5 endpoints.
 
 
 base url:
