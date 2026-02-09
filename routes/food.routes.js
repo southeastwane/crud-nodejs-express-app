@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const { getAllCuisines, getSingleCuisine, createCuisine, updateCuisine, deleteCuisine, getRestaurants } = require('../controller/food.controller')
+const { getAllCuisines, getSingleCuisine, createCuisine, updateCuisine, deleteCuisine } = require('../controller/food.controller')
 
 // 5 endpoints for CRUD operations
 router.get('/', getAllCuisines)
