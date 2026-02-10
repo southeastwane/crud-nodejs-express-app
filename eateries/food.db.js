@@ -4,8 +4,8 @@ const foodData = [
     {
         id: 1,
         restaurant: "Juan Pacheco's",
-        category: "Mexican",
         cuisine: "pollo de crema",
+        category: "Mexican",
         description: "chicken in creamy sauce with rice and salad",
         menu: [
             { "id": 1, "item": "Pollo con Mole", "price": 18, "type": "Main" },
@@ -32,7 +32,10 @@ const foodData = [
         category: "Casual",
         description: "A cozy spot for crepes and croissants.",
         location: "East Side",
-        menu: [{ id: 101, item: "Crepe Suzette", price: 12, type: "Dessert" }]
+        menu: [
+            { "id": 101, "item": "Crepe Suzette", "price": 12, "type": "Dessert" },
+            { "id": 102, "item": "Spinach and Cheese Croissant", "price": 8, "type": "Breakfast" }
+        ]
     }
 
 ]

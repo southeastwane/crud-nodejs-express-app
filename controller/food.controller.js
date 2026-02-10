@@ -69,12 +69,12 @@ const updateCuisine = (req, res) => {
     // We use the spread operator to keep the original ID but overwrite other fields
     const updatedEntry = {
         ...foodDB[index],
-        restaurant: restaurant || foodDb[index].restaurant,
-        cuisine: cuisine || foodDb[index].cuisine,
-        category: category || foodDb[index].category,
-        description: description || foodDb[index].description,
-        price: price || foodDb[index].price,
-        location: location || foodDb[index].location
+        restaurant: restaurant || foodDB[index].restaurant,
+        cuisine: cuisine || foodDB[index].cuisine,
+        category: category || foodDB[index].category,
+        description: description || foodDB[index].description,
+        price: price || foodDB[index].price,
+        location: location || foodDB[index].location
     };
 
     foodDB[index] = updatedEntry;
