@@ -31,7 +31,7 @@ const foodData = [
         cuisine: "French",
         category: "Casual",
         description: "A cozy spot for crepes and croissants.",
-        location: "East Side",
+        location: "Butner , NC",
         menu: [
             { "id": 101, "item": "Crepe Suzette", "price": 12, "type": "Dessert" },
             { "id": 102, "item": "Spinach and Cheese Croissant", "price": 8, "type": "Breakfast" }
